@@ -210,6 +210,15 @@ input, select, textarea {
 		clear: both;
 	}
 
+	.skill-list {
+		padding-top: 40px;
+	}
+
+	.skill {
+		font-size: 40px;
+		padding: 0px 20px;
+	}
+
 /* Container */
 
 	.container {
@@ -1795,6 +1804,28 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+	.project-img:hover {
+		opacity: 1;
+		-webkit-animation: flash 1.5s;
+		animation: flash 1.5s;
+	}
+	@-webkit-keyframes flash {
+		0% {
+			opacity: .4;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@keyframes flash {
+		0% {
+			opacity: .4;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 
 /* List */
 

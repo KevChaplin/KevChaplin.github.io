@@ -10,6 +10,7 @@ Unsplash (unsplash.com)
 
 ### Icons:
 Font Awesome (fontawesome.io)
+Devicon (devicon.dev)
 
 ### Form Backend:
 FormSubmit (formsubmit.io)
