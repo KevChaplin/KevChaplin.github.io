@@ -22,17 +22,17 @@
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Kevin Chaplin</h1>
-							<p>Front-End Engineer</p>
+							<h1 data-i18n="nav.title"></h1>
+							<p data-i18n="nav.subTitle"></p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home" data-i18n="nav.link1"></span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th" data-i18n="nav.link2"></span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user" data-i18n="nav.link3"></span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope" data-i18n="nav.link4"></span></a></li>
 							</ul>
 						</nav>
 
@@ -57,8 +57,8 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"><strong>Kevin Chaplin</strong></h2>
-								<h4><strong>Front-End Engineer</strong></h4>
+								<h2 class="alt" data-i18n="intro.title"><strong></strong></h2>
+								<h4 data-i18n="intro.subTitle"><strong>Front-End Engineer</strong></h4>
 								<div class="skill-list">
 									<i title="HTML" class="skill devicon-html5-plain"></i>
 									<i title="CSS" class="skill devicon-css3-plain"></i>
@@ -74,7 +74,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Continue</a>
+								<a href="#portfolio" class="button scrolly" data-i18n="intro.button"></a>
 							</footer>
 
 						</div>
@@ -85,24 +85,24 @@
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2 data-i18n="portfolio.title"></h2>
 							</header>
 
-							<p>See a live version or check out the code in the relevant Github repository</p>
+							<p data-i18n="portfolio.subTitle"></p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
 										<a href="https://kevchaplin.github.io/interpreter-homepage/" class="image fit"><img class="project-img" src="images/pic01.jpg" alt="" /></a>
 										<header>
-											<h3>Interpreter Homepage</h3>
+											<h3 data-i18n="portfolio.project1.name"></h3>
 											<a href="https://github.com/KevChaplin/interpreter-homepage" class="link"><img src="images/code-icon.png" alt=""/></a>
 										</header>
 									</article>
 									<article class="item">
 										<a href="https://kevchaplin.github.io/rate-my-racing/" class="image fit"><img class="project-img" src="images/pic02.jpg" alt="" /></a>
 										<header>
-											<h3>Rate My Racing</h3>
+											<h3 data-i18n="portfolio.project2.name"></h3>
 											<a href="https://github.com/KevChaplin/rate-my-racing" class="link"><img src="images/code-icon.png" alt=""/></a>
 										</header>
 									</article>
@@ -111,14 +111,14 @@
 									<article class="item">
 										<a href="https://kevchaplin.github.io/japan-environmental-dashboard/" class="image fit"><img class="project-img"src="images/pic06.jpg" alt="" /></a>
 										<header>
-											<h3>Japan Environmental Dashboard</h3>
+											<h3 data-i18n="portfolio.project3.name"></h3>
 											<a href="https://github.com/KevChaplin/japan-environmental-dashboard" class="link"><img src="images/code-icon.png" alt="" /></a>
 										</header>
 									</article>
 									<article class="item">
 										<a href="https://kevchaplin.github.io/javascript-calculator/" class="image fit"><img class="project-img" src="images/pic04.jpg" alt="" /></a>
 										<header>
-											<h3>JavaScript Calculator</h3>
+											<h3 data-i18n="portfolio.project4.name"></h3>
 											<a href="https://github.com/KevChaplin/javascript-calculator" class="link"><img src="images/code-icon.png" alt="" /></i></a>
 										</header>
 									</article>
@@ -147,16 +147,12 @@
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2 data-i18n="about.title"></h2>
 							</header>
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-							<p>Self-taught Front-End Engineer with excellent working knowledge of HTML, CSS, JavaScript, React, Material UI, Svelte, D3.js, Git and Github. Track record of excelling in any environment.<br>
-							Bsc (Hons) Mathematics graduate, JLPT N3 certified Japanese with a rich and diverse career. Including:<br>
-							Military Analyst (including two operational deployments); professional International Karate Instructor; and Prisoner Custody Officer.<br>
-							Family man, married with two children.<br>
-							Click below for full resume.</p>
+							<p data-i18n="about.body"></p>
 
 							<a href="assets\2022-Kevin-Chaplin-Resume.pdf" class="link"><img src="images/resume.png" alt="View Resume" /></a>
 
@@ -168,21 +164,21 @@
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2 data-i18n="contact.title"></h2>
 							</header>
 
-							<p>I look forward to hearing from you.</p>
+							<p data-i18n="contact.subTitle"></p>
 
 							<form method="POST" action="https://formsubmit.co/d19908dd31e0ee7758db5f46e8fc1476">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required/></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" required/></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" data-i18n="[placeholder]contact.placeholder.name" required/></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" data-i18n="[placeholder]contact.placeholder.email" required/></div>
 									<div class="col-12">
 										<input type="hidden" name="_subject" value="Profile Page Submission">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" data-i18n="[placeholder]contact.placeholder.message"></textarea>
 									</div>
 									<div class="col-12">
-										<input type="submit" />
+										<input type="submit" data-i18n="[value]contact.button">
 									</div>
 								</div>
 							</form>

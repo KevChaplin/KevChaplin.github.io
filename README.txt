@@ -2,20 +2,19 @@
 
 ## Credits:
 
-### Web-page:
+### Web-page Template:
 Adapted from "Prologue" by HTML5 UP (html5up.net | @ajlkn)
 
-### Background Images:
-Unsplash (unsplash.com)
+## Template includes:
 
-### Icons:
-Font Awesome (fontawesome.io)
-Devicon (devicon.dev)
+- Icons by Font Awesome (fontawesome.io)
+- jQuery (jquery.com)
+- Scrollex (github.com/ajlkn/jquery.scrollex)
+- Responsive Tools (github.com/ajlkn/responsive-tools)
 
-### Form Backend:
-FormSubmit (formsubmit.io)
+### Addtional resources added by myself
 
-### Other:
-jQuery (jquery.com)
-Scrollex (github.com/ajlkn/jquery.scrollex)
-Responsive Tools (github.com/ajlkn/responsive-tools)
+- Localization by i18Next (i18next.com)
+- Background Images from Unsplash (unsplash.com)
+- Icons by Devicon (devicon.dev)
+- Contact Form Backend by FormSubmit (formsubmit.io)
