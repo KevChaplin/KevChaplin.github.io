@@ -1,17 +1,17 @@
 function switchLanguage() {
   let lang = i18next.language
-  console.log(lang)
-  // lang === 'en' ? lang = 'jp' : lang = 'en'
   
-  // i18next.changeLanguage(lang, (err, t) => {
-  //   if (err) return console.log('something went wrong loading', err);
-  //   t('key'); // -> same as i18next.t
-  // })
+  if ( lang.startsWith('en') ) {
+    lang = 'jp'
+  } else {
+    lang = 'en'
+  }  
+  console.log(lang)
+  i18next.changeLanguage(lang, (err, t) => {
+    if (err) return console.log('something went wrong loading', err);
+    $('body').localize()
+  })
 }
-
-// const rerender = () => {
-//   $('body').localize()
-// }
 
 $(function () {
     // use plugins and options as needed, for options, detail see
@@ -82,8 +82,8 @@ $(function () {
           jp: {
             translation: {
               nav: {
-                title: "チャップリン　ケビン",
-                subTitle: "フロンとエンドエンジニア",
+                title:"チャップリン　ケビン",
+                subTitle: "フロントエンドエンジニア",
                 link1: "トップ",
                 link2: "ポートフォリオ",
                 link3: "自己紹介",
@@ -105,7 +105,7 @@ $(function () {
                   name: "私のレーシングを評価する"
                 },
                 project3: {
-                  name: "日本の環境　ダッシュボード"
+                  name: "日本の環境ダッシュボード"
                 },
                 project4: {
                   name: "JavaScript 計算機"
