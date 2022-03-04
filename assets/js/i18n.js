@@ -6,10 +6,10 @@ function switchLanguage() {
   } else {
     lang = 'en'
   }  
-  console.log(lang)
   i18next.changeLanguage(lang, (err, t) => {
     if (err) return console.log('something went wrong loading', err);
     $('body').localize()
+    $("body").toggleClass("japanese")
   })
 }
 
@@ -91,13 +91,13 @@ $(function () {
               },
               intro: {
                 title: "チャップリン　ケビン",
-                subTitle: "フロンとエンドエンジニア",
+                subTitle: "フロントエンドエンジニア",
                 location: "日本",
                 button: "次へ"
               },
               portfolio: {
                 title: "ポートフォリオ",
-                subTitle: "生バージョンかGitHubでコードも見られます",
+                subTitle: "ライブバージョンかGitHubでコードも見られます",
                 project1: {
                   name: "翻訳者のホームページ"
                 },
@@ -113,12 +113,7 @@ $(function () {
               },
               about: {
                 title: "自己紹介",
-                body: `Self-taught Front-End Engineer with excellent working knowledge of HTML, CSS, JavaScript, React, Material UI, Svelte, D3.js, Git and Github. 
-                Track record of excelling in any environment. 
-                Bsc (Hons) Mathematics graduate, JLPT N3 certified Japanese with a rich and diverse career. Including: 
-                Military Analyst (including two operational deployments); professional International Karate Instructor; and Prisoner Custody Officer.
-                Family man, married with two children. 
-                Click below for full resume.`
+                body: "HTML、CSS、JavaScript、React、Material UI、Svelte、D3.js、Git、Githubの実務知識を独学で学んでいるフロントエンドエンジニアです。数学を専攻し大学を卒業。日本語能力試験N3を保持し、日本でも様々な職業経験をもっています。今まで囚人留置管理官や軍事アナリストとしてイラクやアフガニスタンでのプロジェクトに参加したり、プロの国際空手インストラクターとして様々な分野の仕事を経験してきました。現在は日本人の妻と2人の子供との生活を送っています。お仕事のご依頼等、お問い合わせは下記のフォームからご連絡下さい。お待ちしています。"
               },
               contact: {
                 title: "お問い合わせ",
@@ -144,4 +139,7 @@ $(function () {
         // https://github.com/i18next/jquery-i18next#usage-of-selector-function
         $('body').localize();
       });
+      if (i18next.language === 'jp' ) { $("body").addClass("japanese") }
   });
+
+  console.log(i18next.language)

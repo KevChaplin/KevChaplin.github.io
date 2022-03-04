@@ -91,6 +91,10 @@ input, select, textarea {
 		color: #888;
 	}
 
+	body.japanese {
+		font-size: 17pt;
+	}
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -2141,7 +2145,7 @@ input, select, textarea {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 0.8em;
 			line-height: 1em;
 		}
 
@@ -2311,6 +2315,10 @@ input, select, textarea {
 				font-size: 17pt;
 			}
 
+			body.japanese {
+				font-size: 15pt;
+			}
+
 		/* Header */
 
 			#header {
@@ -2355,6 +2363,10 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 16pt;
+			}
+
+			body.japanese {
+				font-size: 14pt;
 			}
 
 			.container {
@@ -2430,6 +2442,10 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 16pt;
+			}
+
+			body.japanese {
+				font-size: 12pt;
 			}
 
 			header br {
@@ -2621,6 +2637,10 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+			}
+
+			body.japanese {
+				font-size: 12pt;
 			}
 
 			h2 {
