@@ -99,10 +99,10 @@ $(function () {
                 title: "ポートフォリオ",
                 subTitle: "ライブバージョンかGitHubでコードも見られます",
                 project1: {
-                  name: "翻訳者のホームページ"
+                  name: "クライアントのホームページ"
                 },
                 project2: {
-                  name: "私のレーシングを評価する"
+                  name: "レーシング評価アプリ"
                 },
                 project3: {
                   name: "日本の環境ダッシュボード"
@@ -117,7 +117,7 @@ $(function () {
               },
               contact: {
                 title: "お問い合わせ",
-                subTitle: "ご連絡にお待ちしております。",
+                subTitle: "ご連絡をお待ちしております。",
                 placeholder: {
                   name: "名前",
                   email: "メール",

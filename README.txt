@@ -5,7 +5,7 @@
 ### Web-page Template:
 Adapted from "Prologue" by HTML5 UP (html5up.net | @ajlkn)
 
-## Template includes:
+### Template includes:
 
     - Icons by Font Awesome (fontawesome.io)
     - jQuery (jquery.com)
