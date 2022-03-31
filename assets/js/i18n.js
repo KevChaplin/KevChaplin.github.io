@@ -30,7 +30,7 @@ $(function () {
             translation: {
               nav: {
                 title: "Kevin Chaplin",
-                subTitle: "Front-End Engineer",
+                subTitle: "Full-Stack Engineer",
                 link1: "Intro",
                 link2: "Portfolio",
                 link3: "About Me",
@@ -38,7 +38,7 @@ $(function () {
               },
               intro: {
                 title: "Kevin Chaplin",
-                subTitle: "Front-End Engineer",
+                subTitle: "Full-Stack Engineer",
                 location: "Japan",
                 button: "Continue"
               },
@@ -60,7 +60,7 @@ $(function () {
               },
               about: {
                 title: "About Me",
-                body: `Self-taught Front-End Engineer with excellent working knowledge of HTML, CSS, JavaScript, React, Material UI, Svelte, D3.js, Git and Github. 
+                body: `Self-taught Front-End Engineer with excellent working knowledge of HTML, CSS, JavaScript, React, Material UI, Svelte, D3.js, Node.js, Express, MongoDB, Mongoose, MySQL, Git and Github. 
                 Track record of excelling in any environment. 
                 Bsc (Hons) Mathematics graduate, JLPT N3 certified Japanese with a rich and diverse career. Including: 
                 Military Analyst (including two operational deployments); professional International Karate Instructor; and Prisoner Custody Officer.
@@ -83,7 +83,7 @@ $(function () {
             translation: {
               nav: {
                 title:"チャップリン　ケビン",
-                subTitle: "フロントエンドエンジニア",
+                subTitle: "フルスタックエンジニア",
                 link1: "トップ",
                 link2: "ポートフォリオ",
                 link3: "自己紹介",
@@ -91,7 +91,7 @@ $(function () {
               },
               intro: {
                 title: "チャップリン　ケビン",
-                subTitle: "フロントエンドエンジニア",
+                subTitle: "フルスタックエンジニア",
                 location: "日本",
                 button: "次へ"
               },
@@ -113,7 +113,7 @@ $(function () {
               },
               about: {
                 title: "自己紹介",
-                body: "HTML、CSS、JavaScript、React、Material UI、Svelte、D3.js、Git、Githubの実務知識を独学で学んでいるフロントエンドエンジニアです。数学を専攻し大学を卒業。日本語能力試験N3を保持し、日本でも様々な職業経験をもっています。今まで囚人留置管理官や軍事アナリストとしてイラクやアフガニスタンでのプロジェクトに参加したり、プロの国際空手インストラクターとして様々な分野の仕事を経験してきました。現在は日本人の妻と2人の子供との生活を送っています。お仕事のご依頼等、お問い合わせは下記のフォームからご連絡下さい。お待ちしています。"
+                body: "HTML、CSS、JavaScript、React、Material UI、Svelte、D3.js, Node.js, Express, MongoDB, Mongoose, MySQL, Git、Githubの実務知識を独学で学んでいるフルスタックエンジニアです。数学を専攻し大学を卒業。日本語能力試験N3を保持し、日本でも様々な職業経験をもっています。今まで囚人留置管理官や軍事アナリストとしてイラクやアフガニスタンでのプロジェクトに参加したり、プロの国際空手インストラクターとして様々な分野の仕事を経験してきました。現在は日本人の妻と2人の子供との生活を送っています。お仕事のご依頼等、お問い合わせは下記のフォームからご連絡下さい。お待ちしています。"
               },
               contact: {
                 title: "お問い合わせ",
